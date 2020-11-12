@@ -1,0 +1,8 @@
+- name: variable at play level
+  hosts: all
+  vars:
+    abc: www.yahoomail.com
+  tasks:
+    - name: variable at play level
+      debug:
+        msg: sayeed = {{abc}}
